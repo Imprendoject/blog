@@ -10,7 +10,7 @@ from werkzeug.security import generate_password_hash, check_password_hash
 from sqlalchemy.orm import relationship
 from sqlalchemy import ForeignKey
 from forms import CreatePostForm, RegisterForm, LoginForm, CommentForm
-import os
+
 
 
 app = Flask(__name__)
