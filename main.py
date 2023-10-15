@@ -15,7 +15,8 @@ from forms import CreatePostForm, RegisterForm, LoginForm, CommentForm
 
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = os.environ.get('DB_URI')
+app.config['SECRET_KEY'] = 'your key'
+
 ckeditor = CKEditor(app)
 Bootstrap5(app)
 
